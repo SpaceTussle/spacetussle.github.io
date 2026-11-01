@@ -1,0 +1,11 @@
+:root { --fg: #7dff9a; --dim: #4fbf6a; --bg: #020a04; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 ui-monospace, "SF Mono", Menlo, monospace; }
+main { max-width: 44rem; margin: 0 auto; padding: 2.5rem 1rem 4rem; }
+h1, h2 { font-weight: 600; letter-spacing: 0.08em; text-shadow: 0 0 6px rgba(125, 255, 154, 0.6); }
+h1 { font-size: 1.6rem; margin-bottom: 0.25rem; }
+h2 { font-size: 1.1rem; margin-top: 2rem; }
+p, li { color: var(--fg); }
+.date, nav { color: var(--dim); font-size: 0.9rem; }
+a { color: var(--fg); }
+nav a { margin-right: 1.25rem; }
